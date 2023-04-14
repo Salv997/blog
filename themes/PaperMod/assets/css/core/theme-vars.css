@@ -15,11 +15,18 @@
     --hljs-bg: rgb(28, 29, 33);
     --code-bg: rgb(245, 245, 245);
     --border: rgb(238, 238, 238);
+    --fs-large-title: 2.125rem;
+    --fs-title-1: calc(1.75rem - 0.3rem);
+    --fs-title-2: 1.375rem;
+    --fs-title-3: calc(1.25rem - 0.15rem);
+    --fs-body: 0.94rem;
+    --fs-subhead: 0.93rem;
+    --fs-caption: 0.75rem;
 }
 
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
+    --theme:  #121212;
+    --entry: #222;
     --primary: rgb(218, 218, 219);
     --secondary: rgb(155, 156, 157);
     --tertiary: rgb(65, 66, 68);
@@ -27,6 +34,11 @@
     --hljs-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
+    --color-1: #121212;
+    --color-2: #fff;
+    --color-3: #FF3562;
+    --color-grey: #7D7D7D;
+    --color-grey-light: #afafaf;
 }
 
 .list {

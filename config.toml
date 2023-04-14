@@ -69,20 +69,8 @@ tocopen = false
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "Welcome to my blog"
-
-  [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/"
-
-  [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
-
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/"
+  Title = "Benvenuti su SalvBlog 👋"
+  Content = "Il mio blog sul Graphic Design e Web Development"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -94,9 +82,9 @@ SiteVerificationTag = "XYZabc"
 SiteVerificationTag = "XYZabc"
 
   [params.cover]
-  hidden = true
-  hiddenInList = true
-  hiddenInSingle = true
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
 
   [params.editPost]
   URL = "https://github.com/<path_to_repo>/content"
@@ -113,8 +101,8 @@ SiteVerificationTag = "XYZabc"
   keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
-identifier = "categories"
-name = "categories"
+identifier = "categorie"
+name = "categorie"
 url = "/categories/"
 weight = 10
 
@@ -132,3 +120,7 @@ weight = 30
 
 [markup.highlight]
 noClasses = false
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"

@@ -1,6 +1,6 @@
 /* from reset */
 ::-webkit-scrollbar-track {
-    background: 0 0;
+    background-color: var(--color-1);
 }
 
 .list:not(.dark)::-webkit-scrollbar-track {
@@ -8,17 +8,13 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--tertiary);
     border: 5px solid var(--theme);
-    border-radius: var(--radius);
+    background-color: var(--color-3);
+    border-radius: 20px;
 }
 
 .list:not(.dark)::-webkit-scrollbar-thumb {
     border: 5px solid var(--code-bg);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: var(--secondary);
 }
 
 ::-webkit-scrollbar:not(.highlighttable, .highlight table, .gist .highlight) {
