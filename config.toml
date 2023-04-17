@@ -124,3 +124,10 @@ noClasses = false
 [taxonomies]
    tag = "tags"
    category = "categories"
+
+
+[sitemap]
+  changefreq = 'always'
+  filename = 'sitemap.xml'
+  priority = 0.5
+  disableKinds = ["categories"]
