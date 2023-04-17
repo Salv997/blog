@@ -39,38 +39,38 @@ hideSummary = false
 showtoc = false
 tocopen = false
 
-  [params.assets]
-  favicon = "<link / abs url>"
-  favicon16x16 = "<link / abs url>"
-  favicon32x32 = "<link / abs url>"
-  apple_touch_icon = "<link / abs url>"
-  safari_pinned_tab = "<link / abs url>"
+[params.assets]
+favicon = "<link / abs url>"
+favicon16x16 = "<link / abs url>"
+favicon32x32 = "<link / abs url>"
+apple_touch_icon = "<link / abs url>"
+safari_pinned_tab = "<link / abs url>"
 
-  [params.label]
-  text = "Home"
-  icon = "/apple-touch-icon.png"
-  iconHeight = 35
+[params.label]
+text = "Home"
+icon = "/apple-touch-icon.png"
+iconHeight = 35
 
-  [params.profileMode]
-  enabled = false
-  title = "ExampleSite"
-  subtitle = "This is subtitle"
-  imageUrl = "<img location>"
-  imageWidth = 120
-  imageHeight = 120
-  imageTitle = "my image"
+[params.profileMode]
+enabled = false
+title = "ExampleSite"
+subtitle = "This is subtitle"
+imageUrl = "<img location>"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "my image"
 
-    [[params.profileMode.buttons]]
-    name = "Posts"
-    url = "posts"
+  [[params.profileMode.buttons]]
+  name = "Posts"
+  url = "posts"
 
-    [[params.profileMode.buttons]]
-    name = "Tags"
-    url = "tags"
+  [[params.profileMode.buttons]]
+  name = "Tags"
+  url = "tags"
 
-  [params.homeInfoParams]
-  Title = "Benvenuti su SalvBlog 👋"
-  Content = "Il mio blog sul Graphic Design e Web Development"
+[params.homeInfoParams]
+Title = "Benvenuti su SalvBlog 👋"
+Content = "Il mio blog sul Graphic Design e Web Development"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -82,7 +82,7 @@ SiteVerificationTag = "XYZabc"
 SiteVerificationTag = "XYZabc"
 
   [params.cover]
-  hidden = false
+  hidden = true
   hiddenInList = false
   hiddenInSingle = false
 
