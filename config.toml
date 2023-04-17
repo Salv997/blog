@@ -130,4 +130,3 @@ noClasses = false
   changefreq = 'always'
   filename = 'sitemap.xml'
   priority = 0.5
-  disableKinds = ["categories"]
