@@ -107,16 +107,10 @@ url = "/categories/"
 weight = 10
 
 [[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
-weight = 20
-
-[[menu.main]]
 identifier = "website"
-name = "Il mio sito"
-url = "https://salv997.github.io"
-weight = 30
+name = "Fiverr"
+url = "https://www.fiverr.com/salv997"
+weight = 20
 
 [markup.highlight]
 noClasses = false
