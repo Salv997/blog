@@ -70,7 +70,7 @@ imageTitle = "my image"
 
 [params.homeInfoParams]
 Title = "Benvenuti su SalvBlog 👋"
-Content = "Il mio blog sul Graphic Design e Web Development"
+Content = "Il mio blog sul Graphic Design e Web Development. Sei interessato ai miei servizi? Mi trovi su [Fiverr](https://www.fiverr.com/salv997) o [Upwork](https://www.upwork.com/freelancers/~01a5e9ad1b95de80d6)"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
